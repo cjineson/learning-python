@@ -8,7 +8,9 @@ randnum = random.randrange(NUM_FROM,NUM_TO)
     
 while True:
     
-    if sys.version_info[0] < 3:
+    # print(sys.version_info)
+    
+    if sys.version_info.major < 3:
         response = raw_input('Guess the number:')        
     else:
         response = input('Guess the number:')
