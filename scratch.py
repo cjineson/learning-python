@@ -1,4 +1,4 @@
-# String variables, assignment, expressions, If statement
+# String variable, assignment, expressions, If statement
 mystring = "A String"
 yourstring = 'Another String'
 print(mystring)
@@ -9,7 +9,7 @@ if mystring != yourstring:
     print(mystring)
 print(mystring == yourstring)
 
-# Integer variables, While loop, arithmetic expression
+# Integer variable, While loop, arithmetic expression
 myint = 1
 yourint = 10
 print(myint)
@@ -27,4 +27,5 @@ print(mylist)
 print(mylist[3])
 for item in mylist:
     print(item)
+
 
